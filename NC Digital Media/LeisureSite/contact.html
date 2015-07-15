@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Langside Active Leisure Complex</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="Sports centre in Langside" />
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="header">
+				<img style="padding-left:25px;padding-top:25px" src="images/logo.png" alt="Logo">
+				<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li class="current"><a href="contact.html">Contact</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="history.html">History</a></li>
+				</ul>
+			</div>
+				<div id="left-content">
+					<img style="float:right;padding:20px;" src="images/side_pic.png" alt="Sports Images">
+					
+					<h2>Contact</h2>
+					   <form name="contact" method="post" action="mailto:ishaw@langside.ac.uk">
+                            <label for="contact_name">Name:</label><br />
+                            <input type="text" name="contact_name"><br />
+                            <label for="contact_mail">Email:</label><br />
+                            <input type="text" name="contact_mail"><br />
+                            <label for="contact_querie">Querie:</label><br />
+                            <textarea rows="5" cols="30" name="contact_querie">
+                            </textarea>
+                            <br />
+                            <label for="newsletter">Sign up for Newsletter?</label>
+                            <input type="checkbox" name="newsletter" value="Yes">
+                            <br />
+                            <input class="btn" type="submit" name="send" value="Send Details">
+						</form>				
+				</div>
+				<div id="right-content">
+					<h2>Newsletter</h2>
+					<p>We are taking our <a href="contact.html">newsletter</a> to online format, be one of the first to <a href="contact.html">sign up</a> for news direct to your email!<p>
+				</div>
+		</div>
+	</body>
+</html>
